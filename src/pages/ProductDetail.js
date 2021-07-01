@@ -63,6 +63,7 @@ const Details = styled(motion.div)`
            background: white;
     
            @media(max-width: 1300px){
+               height: 100%;
         img{
             width: 70%;
             height: 90%;
@@ -86,6 +87,12 @@ const Headline = styled.div`
     
    
     color: black;
+    @media(max-width: 750px) {
+        padding: 0rem 5px;
+        margin-right: 14.5rem;
+        margin-bottom: 3rem;
+          
+        }
     img{
         width: 100%;
 
@@ -94,14 +101,14 @@ const Headline = styled.div`
         padding: 5rem 5rem;
         text-align: center;
         @media(max-width: 1300px){
-        margin-top: 9rem;
-        margin-right: 15rem;
+        margin-top: 19rem;
+        margin-right: 1rem;
         justify-content: center;
       
 }
     }
     h3{
-        padding: 3rem 3rem;
+        padding: 4rem 3rem;
         text-align: center;
         color: black;
     }
