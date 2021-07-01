@@ -94,10 +94,19 @@ const OurWork = () => {
     )
 }
 
-
 const OurImages = styled(motion.div)`
     background: white;
     padding: 0rem 5rem;
+    @media(max-width: 750px) {
+        justify-content: center;
+        margin-left: 15rem;
+        margin-bottom: 2rem;
+        padding: 2rem 2px;
+          h1{
+              justify-content: center;
+              margin-right: 15rem;
+          }
+        }
     
     img { 
         display: block;
@@ -117,7 +126,15 @@ const OurImages = styled(motion.div)`
         text-align: center;
 
         padding: 3rem 10rem;
+        @media(max-width: 750px) {
+        padding: 0rem 5px;
+        margin-right: 14.5rem;
+        margin-bottom: 3rem;
+          
+        }
+    
         } 
+        
 `;
 
 const Images = styled.div`   
@@ -128,7 +145,20 @@ const Images = styled.div`
     grid-row-gap: 5rem; 
     cursor: pointer;
     overFlow: hidden;
+    @media(max-width: 750px) {
+        img{
+            padding: 0rem 10px;
+            margin-right: 14.5rem;
+            justify-items: center;
+            justify-content: center;
+            width: 70%;
+            height: 60%;
+        }
+        padding: 0rem 10px;
+        margin-right: 1rem;
+        }
 `;
+
 
 
 
