@@ -27,12 +27,7 @@ const ContactUs = () => {
     background: white;
     height: 80vh;
     font-family: 'Inter', sans-serif;
-    @media(max-width: 1300px){
-        height: 40vh;
-        min-height: 30vh;
-        margin: 1rem 1rem 5rem 1rem;
-
-    }
+    
    `; 
     const Image = styled.div`
     flex: 1;
@@ -43,18 +38,11 @@ const ContactUs = () => {
         height: 53vh;
         object-fit: cover;
         margin-top: 2rem;
+       
 
     }
 
-    @media(max-width: 1300px){
-        img{
-            width: 90%;
-            height: 50%;
-            margin-top: 1rem;
-            margin-bottom: 10rem;
-
-        }
-    }
+  
     
 `;
 export default ContactUs;
