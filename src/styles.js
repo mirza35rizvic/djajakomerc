@@ -3,20 +3,23 @@ import {motion} from 'framer-motion';
 
 //Styled Components
 export const About = styled(motion.div)`
-    min-height: 90vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 10rem;
+    padding: 5rem 1rem;
     color: white;
-    
-    @media(max-width: 1300px){
-        display: block;
-        padding: 2rem 2rem;
-        text-align: center;
-}
-    
+   @media (max-width: 1300px) {
+       display: grid;
+       padding: 1rem 1rem;
+       text-align: center;
 
+       img{
+           height: 100vh;
+       }
+      
+   }
+ 
 `;
 
 export const Description = styled.div`
@@ -25,25 +28,23 @@ export const Description = styled.div`
     h2{
         font-weight: lighter;
     }
-    @media (max-width: 1300px){
-
-        padding: 1rem 1rem;
-        margin-bottom: 20rem; 
-        margin-left: 1rem;
-        margin-right: 2rem;
-        h2{
-            padding: 1rem 1rem;
+    @media (max-width: 1300px) {
+        margin-top: 10rem;
+        padding: 0;
+        height: 20vh;
+        button{
+            margin: 2rem 0rem 2rem 0rem;
         }
-        
-
-        button { 
-            margin: 2rem 0rem 3rem 0rem;
-            width: 12rem;
-            font-size: 2rem;
-            height: 7rem;
-        }
-}
+    }
   
+    @media (max-width: 750px) {
+        padding: 0;
+        button{
+            margin: 2rem 0rem 2rem 0rem;
+        }
+    }
+  
+        
 `;
 
 export const Image = styled.div`
@@ -51,19 +52,18 @@ export const Image = styled.div`
     overflow: hidden;
     img{
         width: 100%;
-        height: 85vh;
+        height: 105vh;
         object-fit: cover;
     }
-    @media(max-width: 1300px){
-        img{
-            width: 50%;
-            height: 80%;
-            margin-top: 1rem;
-            margin-bottom: 15rem;
-
+    @media (max-width: 750px) {
+        margin-bottom:  1rem;
+       img{ 
+           margin-top: 18rem;
+           margin-bottom: 25rem;
+           width: 80%;
+           height: 40vh; 
         }
-      
-}
+    }
 `;
 
 export const Hide = styled.div`
