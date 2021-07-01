@@ -42,12 +42,7 @@ const ContactUsTheSecond = () => {
 const Cards = styled.div`
 display: grid;
 grid-gap: 20px;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-@media(max-width: 1300px){
-       margin: 0rem 13rem;
-
-        
-    }
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    
 `;
 
 
@@ -59,6 +54,7 @@ padding: 10px;
 border: 1px solid white;
 text-align: center;
 box-shadow: 0 0 4px rgba(0, 0, 0,0.1); 
+margin-right: 2rem;
 `;   
 
 const Icon = styled.div`
