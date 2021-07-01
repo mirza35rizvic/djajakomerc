@@ -54,7 +54,7 @@ padding: 10px;
 border: 1px solid white;
 text-align: center;
 box-shadow: 0 0 4px rgba(0, 0, 0,0.1); 
-margin-right: 2rem;
+
 `;   
 
 const Icon = styled.div`
