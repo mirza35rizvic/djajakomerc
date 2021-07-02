@@ -42,7 +42,7 @@ const OurWork = () => {
               
                 <div className="chives">
               {/*   <ProductDetails/> */}
-                    <h2>srijemuž</h2>
+                    <h2>srijemuš</h2>
                 <Link to="/work/chives">
                 <img src={Chives} alt="Chives"/>
                 </Link>
