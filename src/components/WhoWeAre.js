@@ -32,7 +32,7 @@ const ImageWhoWeAre = styled.div`
     overflow: hidden;
     img{
         width: 100%;
-        height: 71vh;
+        height: 91vh;
         object-fit: cover;
 
         
