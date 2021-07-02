@@ -147,15 +147,15 @@ const Images = styled.div`
     overFlow: hidden;
     @media(max-width: 750px) {
         img{
-            padding: 0rem 10px;
-            margin-right: 14.5rem;
+            padding: 0rem 1px;
+            margin-right: 2.5rem;
             justify-items: center;
             justify-content: center;
             width: 70%;
             height: 60%;
         }
-        padding: 0rem 10px;
-        margin-right: 1rem;
+        padding: 0rem 1px;
+        margin-right: 0rem;
         }
 `;
 
