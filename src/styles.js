@@ -15,6 +15,9 @@ export const About = styled(motion.div)`
         display: block;
         padding: 2rem 2rem;
         text-align: center;
+          img{
+           height: 100vh;
+       }
 }
     
 `;
@@ -61,6 +64,16 @@ export const Image = styled.div`
         }
       
 }
+ @media (max-width: 750px) {
+        margin-bottom:  1rem;
+       img{ 
+           margin-top: 18rem;
+           margin-bottom: 25rem;
+           width: 80%;
+           height: 40vh; 
+        }
+    }
+`;
 `;
 
 export const Hide = styled.div`
