@@ -30,10 +30,12 @@ const WhoWeAre = () => {
 const ImageWhoWeAre = styled.div`
     flex: 1;
     overflow: hidden;
+    margin-top: 19rem;
     img{
         width: 100%;
         height: 91vh;
         object-fit: cover;
+        
 
         
     }
