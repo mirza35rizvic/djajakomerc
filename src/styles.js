@@ -16,6 +16,7 @@ export const About = styled(motion.div)`
         text-align: center;
         height: 150vh;
          min-height: 70vh;
+         margin-top: 5rem
         
 }
     
@@ -29,7 +30,7 @@ export const Description = styled.div`
     }
     @media (max-width: 1300px){
         padding: 1rem 1rem;
-        margin-bottom: 20rem; 
+        margin-bottom: 2rem; 
         margin-left: 1rem;
         margin-right: 2rem;
         h2{
