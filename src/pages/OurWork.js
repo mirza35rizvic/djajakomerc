@@ -104,7 +104,8 @@ const OurImages = styled(motion.div)`
         padding: 2rem 2px;
           h1{
               justify-content: center;
-              margin-right: 5rem;
+              margin-right: 3rem;
+              padding: 5rem ;
           }
         }
     
@@ -119,6 +120,7 @@ const OurImages = styled(motion.div)`
         padding: 3.5rem 0rem;
         color: black;
         text-align: center;
+        
     }
     
     h2{
