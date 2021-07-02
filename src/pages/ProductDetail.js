@@ -89,7 +89,7 @@ const Headline = styled.div`
     color: black;
     @media(max-width: 750px) {
         padding: 0rem 5px;
-        margin-right: 14.5rem;
+        
         margin-bottom: 3rem;
           
         }
@@ -102,13 +102,13 @@ const Headline = styled.div`
         text-align: center;
         @media(max-width: 1300px){
         margin-top: 19rem;
-        margin-right: 1rem;
+        
         justify-content: center;
       
 }
     }
     h3{
-        padding: 4rem 3rem;
+        
         text-align: center;
         color: black;
     }
