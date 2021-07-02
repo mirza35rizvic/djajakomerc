@@ -55,15 +55,7 @@ export const Image = styled.div`
         height: 85vh;
         object-fit: cover;
     }
-    @media(max-width: 1300px){
-        img{
-            width: 50%;
-            height: 80%;
-            margin-top: 1rem;
-            margin-bottom: 15rem;
-        }
-      
-}
+ 
  @media (max-width: 750px) {
         margin-bottom:  1rem;
        img{ 
@@ -74,7 +66,7 @@ export const Image = styled.div`
         }
     }
 `;
-`;
+
 
 export const Hide = styled.div`
     overflow: hidden;
