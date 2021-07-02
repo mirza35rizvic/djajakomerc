@@ -74,7 +74,7 @@ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 @media(max-width: 1300px){
        justify-content: center;
-       margin: 0rem 8rem;
+       margin: 0rem ;
 }
 `;
 
