@@ -3,18 +3,18 @@ import {motion} from 'framer-motion';
 
 //Styled Components
 export const About = styled(motion.div)`
-    min-height: 90vh;
+    min-height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5rem 10rem;
     color: white;
     
-    @media(max-width: 1300px){
+    @media(max-width: 750px){
         display: block;
         padding: 2rem 2rem;
         text-align: center;
-        height: 150vh;
+
          min-height: 70vh;
          margin-top: 5rem
         
