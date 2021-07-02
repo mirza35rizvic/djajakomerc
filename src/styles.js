@@ -24,13 +24,14 @@ export const About = styled(motion.div)`
 
 export const Description = styled.div`
     flex: 1;
-    padding-right: 0;
+    
     h2{
         font-weight: lighter;
     }
     @media (max-width: 1300px){
         padding: 1rem 1rem;
         margin-bottom: 2rem; 
+        margin-top: 9rem;
         margin-left: 1rem;
         margin-right: 2rem;
         h2{
@@ -59,7 +60,7 @@ export const Image = styled.div`
         img{
             width: 50%;
             height: 80%;
-            margin-top: 1rem;
+            margin-top: 10rem;
             margin-bottom: 8rem;
         }
       
