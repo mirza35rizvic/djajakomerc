@@ -60,7 +60,7 @@ export const Image = styled.div`
             width: 50%;
             height: 80%;
             margin-top: 1rem;
-            margin-bottom: 15rem;
+            margin-bottom: 8rem;
         }
       
 }
