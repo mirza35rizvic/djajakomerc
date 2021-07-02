@@ -116,7 +116,7 @@ const OurImages = styled(motion.div)`
     }
    
     h1{
-        padding: 5rem 0rem;
+        padding: 3.5rem 0rem;
         color: black;
         text-align: center;
     }
