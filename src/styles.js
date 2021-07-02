@@ -29,9 +29,9 @@ export const Description = styled.div`
         font-weight: lighter;
     }
     @media (max-width: 1300px) {
-        margin-top: 10rem;
+        margin-top: 5rem;
         padding: 0;
-        height: 20vh;
+        height: 60vh;
         button{
             margin: 2rem 0rem 2rem 0rem;
         }
@@ -52,13 +52,13 @@ export const Image = styled.div`
     overflow: hidden;
     img{
         width: 100%;
-        height: 105vh;
+        height: 10vh;
         object-fit: cover;
     }
     @media (max-width: 750px) {
         margin-bottom:  1rem;
        img{ 
-           margin-top: 18rem;
+           margin-top: 1rem;
            margin-bottom: 25rem;
            width: 80%;
            height: 40vh; 
