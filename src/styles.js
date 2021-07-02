@@ -58,8 +58,8 @@ export const Image = styled.div`
     @media (max-width: 750px) {
         margin-bottom:  1rem;
        img{ 
-           margin-top: 1rem;
-           margin-bottom: 25rem;
+           margin-top: 5rem;
+           margin-bottom: 13rem;
            width: 80%;
            height: 40vh; 
         }
