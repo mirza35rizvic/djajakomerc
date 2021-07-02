@@ -13,9 +13,9 @@ export const About = styled(motion.div)`
        display: grid;
        padding: 1rem 1rem;
        text-align: center;
-
+         min-height: 80vh;
        img{
-           height: 100vh;
+           height: 60vh;
        }
       
    }
