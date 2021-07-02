@@ -104,7 +104,7 @@ const OurImages = styled(motion.div)`
         padding: 2rem 2px;
           h1{
               justify-content: center;
-              margin-right: 15rem;
+              margin-right: 9rem;
           }
         }
     
