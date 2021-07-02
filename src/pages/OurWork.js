@@ -104,7 +104,7 @@ const OurImages = styled(motion.div)`
         padding: 2rem 2px;
           h1{
               justify-content: center;
-              margin-right: 9rem;
+              margin-right: 5rem;
           }
         }
     
@@ -155,7 +155,7 @@ const Images = styled.div`
             height: 60%;
         }
         padding: 0rem 1px;
-        margin-right: 0rem;
+       
         }
 `;
 
