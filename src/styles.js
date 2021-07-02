@@ -14,6 +14,7 @@ export const About = styled(motion.div)`
         display: block;
         padding: 2rem 2rem;
         text-align: center;
+        height: 100vh;
 }
     
 `;
